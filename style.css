@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS Document */
+
+p {
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	text-align:center;
+	margin-top:2%;
+}
+
+
+
+.container_box {
+	flex-direction:row;
+	float:left;
+	width:29%;
+	height:160px;
+	margin:3% 2% 5% 2%;
+	background-color:#fced98;
+	text-align:center;
+}
+
+.container_box  p{
+	text-align:center;
+	margin-top:1%;
+}
+
+
+
+
+h1 {
+	background-color:#e6f3ea;
+	padding:5% 0%;
+	text-align:center;
+}
+
+.button_box {
+	background-color:#f5f5f5;
+	clear:both;
+	padding:8% 0%;
+	margin-top:7%;
+}
+
+.button_box p {
+    margin-bottom:3%;
+}
+
+
+.button   {
+    width:350px;
+    font-size:24px;
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    text-align:center;
+    padding:8px 0 10px;
+    color:#fff;
+    background-color:#49a9d4;
+    border-radius:20px;
+    margin:0 auto;
+}
+
+.button a {
+	text-align:center;
+	text-decoration:none;
+	color: #fff;
+}
+
+
+@media (max-width: 768px) {
+  
+  .container{
+	  width:100%;
+  }
+	  
+
+.container_box {
+	width:90%;
+	margin:0 auto;
+	height:170px;
+	margin:2% 5%;
+  
+}
+
+.button {
+	width:auto;
+	margin:0 50px;
+}
+
+}
+
+.clearfix:after{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    font-size:0;    
+    clear: both; 
+    visibility:hidden;
+}
+.clearfix{
+    display: inline-block;
+} 
+/* Hides from IE Mac */
+* html .clearfix{
+    height: 1%;
+}
+.clearfix{
+    display:block;
+}
